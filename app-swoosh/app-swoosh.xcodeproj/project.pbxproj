@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E752C03C20682A3F00326485 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E752C03B20682A3F00326485 /* Player.swift */; };
 		E7CE9F3F2066EB92004D7683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CE9F3E2066EB92004D7683 /* AppDelegate.swift */; };
 		E7CE9F412066EB92004D7683 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CE9F402066EB92004D7683 /* WelcomeVC.swift */; };
 		E7CE9F442066EB92004D7683 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7CE9F422066EB92004D7683 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E752C03B20682A3F00326485 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		E7CE9F3B2066EB92004D7683 /* app-swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CE9F3E2066EB92004D7683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CE9F402066EB92004D7683 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		E7CE9F542067611A004D7683 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E752C03B20682A3F00326485 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				E7CE9F56206762C7004D7683 /* LeagueVC.swift in Sources */,
 				E7CE9F3F2066EB92004D7683 /* AppDelegate.swift in Sources */,
 				E7CE9F58206762E3004D7683 /* SkillVC.swift in Sources */,
+				E752C03C20682A3F00326485 /* Player.swift in Sources */,
 				E7CE9F522066F195004D7683 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
